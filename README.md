@@ -41,7 +41,7 @@ para que la api rest funcione por favor ubicate en la carpeta users-api-rest
 
 * la api corre en el puerto 3000
 
-ve a __htttp://localhost:3000/users__ para ver el manejo de empleados
+ve a __http://localhost:3000/users__ para ver el manejo de empleados
 
 ### Depenpendencias usadas 
 
