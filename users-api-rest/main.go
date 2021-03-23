@@ -6,6 +6,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	"log"
 )
 
 
@@ -17,5 +18,5 @@ func main(){
 
 	router.SetupRoutes(app)
 
-	app.Listen(":8000")
+	log.Fatal(app.Listen(":8000"))
 }
